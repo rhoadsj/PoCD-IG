@@ -91,6 +91,9 @@
       </type>
       <condition value="pocd-obs-1"/>
     </element>
+    <element id="Observation.value[x]:valueRatio.numerator">
+      <path value="Observation.value[x].numerator"/>
+    </element>
     <element id="Observation.value[x]:valueRatio.numerator.value">
       <path value="Observation.value[x].numerator.value"/>
       <min value="1"/>
@@ -98,6 +101,9 @@
     <element id="Observation.value[x]:valueRatio.numerator.system">
       <path value="Observation.value[x].numerator.system"/>
       <fixedUri value="http://unitsofmeasure.org"/>
+    </element>
+    <element id="Observation.value[x]:valueRatio.denominator">
+      <path value="Observation.value[x].denominator"/>
     </element>
     <element id="Observation.value[x]:valueRatio.denominator.value">
       <path value="Observation.value[x].denominator.value"/>

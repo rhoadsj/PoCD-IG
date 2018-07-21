@@ -23,6 +23,9 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DeviceMetric"/>
   <derivation value="constraint"/>
   <differential>
+    <element id="DeviceMetric">
+      <path value="DeviceMetric"/>
+    </element>
     <element id="DeviceMetric.type">
       <path value="DeviceMetric.type"/>
       <binding> 
