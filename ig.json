@@ -1,0 +1,23 @@
+{
+	"source" : "PoCD-IG.xml",
+	"canonicalBase" : "http://hl7.org/fhir/uv/pocd",
+	"npm-name" : "hl7.fhir.uv.pocd",
+	"license" : "CC0-1.0",
+	"template": "https://github.com/FHIR/test-template",
+	"paths" : {
+		"resources" : [
+			"resources",
+			"examples"
+		],
+		"pages" : "pages",
+		"temp" : "temp",
+		"output" : "output",
+		"qa" : "qa",
+		"specification" : "http://build.fhir.org/"
+	},
+	"resources" : {
+	},
+	"defaults": {
+  },
+	"sct-edition" : "http://snomed.info/sct/900000000000207008"
+}
