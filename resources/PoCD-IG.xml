@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="PoCD-IG"/>
+  <url value="http://hl7.org/fhir/uv/pocd/ImplementationGuide/PoCD-IG"/>
+  <version value="0.2.0"/>
+  <name value="PoCDImplementationGuide"/>
+  <!-- <title value="Point-of-Care Device General Implementation Guide"/> -->
+  <status value="draft"/>
+  <date value="2018-07-21"/>
+  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
+  <description value="ImplementationGuide for Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.)."/>
+  <packageId value="hl7.fhir.uv.pocd"/>
+  <fhirVersion value="3.4.0"/>
+  <definition>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/NumericDeviceMetric"/>
+      </reference>
+      <name value="NumericDeviceMetric"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/NumericObservation"/>
+      </reference>
+      <name value="NumericObservation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/11073MDC-object"/>
+      </reference>
+      <name value="11073MDC-object"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/11073MDC-metric"/>
+      </reference>
+      <name value="11073MDC-metric"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/11073MDC-dimension"/>
+      </reference>
+      <name value="11073MDC-dimension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="index.html"/>
+      <title value="Home"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="overview.html"/>
+        <title value="Overview"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="technicalimplementationguidance.html"/>
+        <title value="Technical Implementation Guidance"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="html"/>
+      </page>
+       <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="resources.html"/>
+        <title value="Resources"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="html"/>
+      </page>
+    </page>
+    <template>
+      <code value="test"/>
+      <source value="http://github.com/fhir/test-template"/>
+    </template>
+  </definition>
+</ImplementationGuide>
