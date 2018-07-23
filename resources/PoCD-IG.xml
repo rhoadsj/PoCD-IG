@@ -3,8 +3,9 @@
   <id value="PoCD-IG"/>
   <url value="http://hl7.org/fhir/uv/pocd/ImplementationGuide/PoCD-IG"/>
   <version value="0.2.0"/>
-  <name value="PoCDImplementationGuide"/>
-  <!-- <title value="Point-of-Care Device General Implementation Guide"/> -->
+  <name value="Point-of-Care Device Implementation Guide"/>
+  <!-- <name value="PoCDImplementationGuide"/>
+  <title value="Point-of-Care Device Implementation Guide"/> -->
   <status value="draft"/>
   <date value="2018-07-21"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
@@ -46,6 +47,13 @@
       </reference>
       <name value="11073MDC-dimension"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/HeartRateNumericObservation"/>
+      </reference>
+      <name value="HeartRateNumericObservation"/>
+      <exampleCanonical value="StructureDefinition/NumericObservation"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>
