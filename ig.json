@@ -1,23 +1,40 @@
 {
-	"source" : "PoCD-IG.xml",
-	"canonicalBase" : "http://hl7.org/fhir/uv/pocd",
-	"npm-name" : "hl7.fhir.uv.pocd",
-	"license" : "CC0-1.0",
-	"template": "https://github.com/FHIR/test-template",
-	"paths" : {
-		"resources" : [
-			"resources",
-			"examples"
-		],
-		"pages" : "pages",
-		"temp" : "temp",
-		"output" : "output",
-		"qa" : "qa",
-		"specification" : "http://build.fhir.org/"
-	},
-	"resources" : {
-	},
-	"defaults": {
+  "source": "PoCD-IG.xml",
+  "canonicalBase": "http://hl7.org/fhir/uv/pocd",
+  "fixed-business-version": "0.2.0",
+  "npm-name": "hl7.fhir.uv.pocd",
+  "license": "CC0-1.0",
+  "template": "https://github.com/FHIR/test-template",
+  "paths": {
+    "resources": [
+      "resources",
+      "examples"
+    ],
+    "pages": "pages",
+    "temp": "temp",
+    "output": "output",
+    "qa": "qa",
+    "specification": "http://build.fhir.org/"
   },
-	"sct-edition" : "http://snomed.info/sct/900000000000207008"
+  "resources": {
+    "StructureDefinition/NumericDeviceMetric": {
+      "base": "StructureDefinition-NumericDeviceMetric.html"
+    },
+    "StructureDefinition/NumericObservation": {
+      "base": "StructureDefinition-NumericObservation.html"
+    },
+    "ValueSet/11073MDC-object": {
+      "base": "ValueSet-11073MDC-object.html"
+    },
+    "ValueSet/11073MDC-metric": {
+      "base": "ValueSet-11073MDC-metric.html"
+    },
+    "ValueSet/11073MDC-dimension": {
+      "base": "ValueSet-11073MDC-dimension.html"
+    }
+  },
+  "defaults": {
+    
+  },
+  "sct-edition": "http://snomed.info/sct/900000000000207008"
 }
