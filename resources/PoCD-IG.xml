@@ -7,7 +7,7 @@
   <!-- <name value="PoCDImplementationGuide"/>
   <title value="Point-of-Care Device Implementation Guide"/> -->
   <status value="draft"/>
-  <date value="2018-07-21"/>
+  <date value="2018-08-02"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="ImplementationGuide for Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.)."/>
   <packageId value="hl7.fhir.uv.pocd"/>
@@ -22,9 +22,30 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/EnumerationDeviceMetric"/>
+      </reference>
+      <name value="EnumerationDeviceMetric"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/NumericObservation"/>
       </reference>
       <name value="NumericObservation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CompoundNumericObservation"/>
+      </reference>
+      <name value="CompoundNumericObservation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/EnumerationObservation"/>
+      </reference>
+      <name value="EnumerationObservation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

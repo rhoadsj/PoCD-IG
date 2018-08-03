@@ -20,8 +20,17 @@
     "StructureDefinition/NumericDeviceMetric": {
       "base": "StructureDefinition-NumericDeviceMetric.html"
     },
+    "StructureDefinition/EnumerationDeviceMetric": {
+      "base": "StructureDefinition-EnumerationDeviceMetric.html"
+    },
     "StructureDefinition/NumericObservation": {
       "base": "StructureDefinition-NumericObservation.html"
+    },
+    "StructureDefinition/CompoundNumericObservation": {
+      "base": "StructureDefinition-CompoundNumericObservation.html"
+    },
+    "StructureDefinition/EnumerationObservation": {
+      "base": "StructureDefinition-EnumerationObservation.html"
     },
     "ValueSet/11073MDC-object": {
       "base": "ValueSet-11073MDC-object.html"
