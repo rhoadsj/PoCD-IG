@@ -28,9 +28,9 @@ A planned future FHIR use case for the Devices on FHIR group is the near-real-ti
 Other PCD profiles include Implantable Device Cardiac Observations, Point-of-Care Infusion Verification.
 
 #### Vital Signs Profile
-The Observation resource is used to record data that is retrieved from a device (see {{pagelink:ObservationProfiles}}).  Some values that are formalized in this resource are required to conform to the [Vital Signs Profile](http://hl7.org/fhir/observation-vitalsigns.html).  For example, heart rate or respiratory rate, many of which are often provided by a PoCD patient-connected device.  
+The [Observation](http://hl7.org/fhir/observation.html) resource is used to record data that is retrieved from a device. Some values that are formalized in this resource are required to conform to the [Vital Signs Profile](http://hl7.org/fhir/observation-vitalsigns.html).  For example, heart rate or respiratory rate, many of which are often provided by a PoCD patient-connected device.  
 
-This requirement is a challenge, though, for devices that only communicate ISO/IEEE 11073 terminology (the Vital Signs Profile) requires LOINC and UCUM).  As a result, provisions must be made to correctly make the mapping for these terms from 11073 to LOINC and to ensure that they are done at the earliest possible point.
+This requirement is a challenge, though, for devices that only communicate ISO/IEEE 11073 terminology (the Vital Signs Profile requires LOINC and UCUM).  As a result, provisions must be made to correctly make the mapping for these terms from 11073 to LOINC and to ensure that they are done at the earliest possible point.
 
 This is an area of coordination between this IG and the Vital Signs Profile.
 
