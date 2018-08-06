@@ -4,6 +4,7 @@
   "fixed-business-version": "0.2.0",
   "npm-name": "hl7.fhir.uv.pocd",
   "license": "CC0-1.0",
+  "sct-edition": "http://snomed.info/sct/900000000000207008",
   "template": "https://github.com/FHIR/test-template",
   "paths": {
     "resources": [
@@ -15,6 +16,9 @@
     "output": "output",
     "qa": "qa",
     "specification": "http://build.fhir.org/"
+  },
+  "defaults": {
+    
   },
   "resources": {
     "StructureDefinition/NumericDeviceMetric": {
@@ -40,10 +44,38 @@
     },
     "ValueSet/11073MDC-dimension": {
       "base": "ValueSet-11073MDC-dimension.html"
+    },
+    "DeviceMetric/5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b": {
+      "source": "HeartRateNumericDeviceMetric.xml",
+      "base": "DeviceMetric-5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b.html"
+    },
+    "DeviceMetric/2f26a717-9841-4ddc-92eb-26398c7548c7": {
+      "source": "NBPNumericDeviceMetric.xml",
+      "base": "DeviceMetric-2f26a717-9841-4ddc-92eb-26398c7548c7.html"
+    },
+    "DeviceMetric/da145796-6cda-4dec-b9cf-8385b24afddf": {
+      "source": "RhythmStatusEnumerationDeviceMetric.xml",
+      "base": "DeviceMetric-da145796-6cda-4dec-b9cf-8385b24afddf.html"
+    },
+    "Observation/f2252dbe-48e5-463b-b781-00c4fa71da88": {
+      "source": "HeartRateNumericObservation.xml",
+      "base": "Observation-f2252dbe-48e5-463b-b781-00c4fa71da88.html"
+    },
+    "Observation/d77b8105-44a7-47dc-931e-2621ad85d472": {
+      "source": "NBPCompoundNumericObservation.xml",
+      "base": "Observation-d77b8105-44a7-47dc-931e-2621ad85d472.html"
+    },
+    "Observation/84b2ce38-98e2-4da6-a593-afdb3fd017f5": {
+      "source": "RhythmStatusEnumerationObservation.xml",
+      "base": "Observation-84b2ce38-98e2-4da6-a593-afdb3fd017f5.html"
+    },
+    "Patient/6a41c235-5421-4698-af96-20f279b21ffc": {
+      "source": "Patient.xml",
+      "base": "Patient-6a41c235-5421-4698-af96-20f279b21ffc.html"
+    },
+    "Location/6a10c89f-8a65-46c9-af60-4f6c12f9bd48": {
+      "source": "Location.xml",
+      "base": "Location-6a10c89f-8a65-46c9-af60-4f6c12f9bd48.html"
     }
-  },
-  "defaults": {
-    
-  },
-  "sct-edition": "http://snomed.info/sct/900000000000207008"
+  }
 }

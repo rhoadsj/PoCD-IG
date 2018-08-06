@@ -7,7 +7,7 @@
   <!-- <name value="PoCDImplementationGuide"/>
   <title value="Point-of-Care Device Implementation Guide"/> -->
   <status value="draft"/>
-  <date value="2018-08-02"/>
+  <date value="2018-08-06"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="ImplementationGuide for Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.)."/>
   <packageId value="hl7.fhir.uv.pocd"/>
@@ -71,10 +71,57 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/HeartRateNumericObservation"/>
-      </reference>
+        <reference value="DeviceMetric/5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b"/>
+      </reference> 
+      <name value="HeartRateNumericDeviceMetric"/>
+      <exampleCanonical value="StructureDefinition/NumericDeviceMetric"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DeviceMetric/2f26a717-9841-4ddc-92eb-26398c7548c7"/>
+      </reference> 
+      <name value="NBPNumericDeviceMetric"/>
+      <exampleCanonical value="StructureDefinition/NumericDeviceMetric"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DeviceMetric/da145796-6cda-4dec-b9cf-8385b24afddf"/>
+      </reference> 
+      <name value="RhythmStatusEnumerationDeviceMetric"/>
+      <exampleCanonical value="StructureDefinition/EnumerationDeviceMetric"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/f2252dbe-48e5-463b-b781-00c4fa71da88"/>
+      </reference> 
       <name value="HeartRateNumericObservation"/>
       <exampleCanonical value="StructureDefinition/NumericObservation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/d77b8105-44a7-47dc-931e-2621ad85d472"/>
+      </reference> 
+      <name value="NBPCompoundNumericObservation"/>
+      <exampleCanonical value="StructureDefinition/CompoundNumericObservation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/84b2ce38-98e2-4da6-a593-afdb3fd017f5"/>
+      </reference> 
+      <name value="RhythmStatusEnumerationObservation"/>
+      <exampleCanonical value="StructureDefinition/EnumerationObservation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/6a41c235-5421-4698-af96-20f279b21ffc"/>
+      </reference> 
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Location/6a10c89f-8a65-46c9-af60-4f6c12f9bd48"/>
+      </reference> 
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>

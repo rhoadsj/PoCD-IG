@@ -1,0 +1,46 @@
+{
+  "NumericDeviceMetric": {
+    "examples": [
+      {
+        "type": "DeviceMetric",
+        "id": "5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b"
+      },
+      {
+        "type": "DeviceMetric",
+        "id": "2f26a717-9841-4ddc-92eb-26398c7548c7"
+      }
+    ]
+  },
+  "EnumerationDeviceMetric": {
+    "examples": [
+      {
+        "type": "DeviceMetric",
+        "id": "da145796-6cda-4dec-b9cf-8385b24afddf"
+      }
+    ]
+  },
+  "NumericObservation": {
+    "examples": [
+      {
+        "type": "Observation",
+        "id": "f2252dbe-48e5-463b-b781-00c4fa71da88"
+      }
+    ]
+  },
+  "CompoundNumericObservation": {
+    "examples": [
+      {
+        "type": "Observation",
+        "id": "d77b8105-44a7-47dc-931e-2621ad85d472"
+      }
+    ]
+  },
+  "EnumerationObservation": {
+    "examples": [
+      {
+        "type": "Observation",
+        "id": "84b2ce38-98e2-4da6-a593-afdb3fd017f5"
+      }
+    ]
+  }
+}
