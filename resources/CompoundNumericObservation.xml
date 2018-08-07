@@ -7,14 +7,15 @@
 * `Observation.subject` shall be present and refer to a Patient resource or MDS Device resource.&#10;
 * `Observation.value[x]` must not be there.&#10;
 * `Observation.device` shall be present and refer to the Numeric DeviceMetric resource where this observation belongs to.&#10;
-* For each component, `Observation.component.valueQuantity` or, if there is no value, `Observation.component.dataAbsentReason` shall be present. Values shall have a UCUM unit code."/>
+* For each component, `Observation.component.valueQuantity` or, if there is no value, `Observation.component.dataAbsentReason` shall be present. Values shall have a UCUM unit code.&#10;
+* `Observation.component.interpretation` coding includes measurement status."/>
   </extension>
   <url value="http://hl7.org/fhir/uv/pocd/StructureDefinition/CompoundNumericObservation"/>
   <version value="0.2.0"/>
   <name value="CompoundNumericObservation"/>
   <title value="Compound Numeric Observation Profile"/>
   <status value="draft"/>
-  <date value="2018-08-02"/>
+  <date value="2018-08-07"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="StructureDefinition for Observation resources that represent numerical measurements, calculations, or settings with multiple components."/>
   <fhirVersion value="3.4.0"/>
@@ -105,6 +106,13 @@
     <element id="Observation.component.dataAbsentReason">
       <path value="Observation.component.dataAbsentReason"/>
       <condition value="pocd-obs-1"/>
+    </element>
+    <element id="Observation.component.interpretation">
+      <path value="Observation.component.interpretation"/>
+      <binding> 
+        <strength value="extensible"/> 
+        <valueSet value="http://hl7.org/fhir/uv/pocd/ValueSet/observation-interpretation"/> 
+      </binding>     
     </element>
   </differential>
 </StructureDefinition>
