@@ -1,5 +1,5 @@
 {
-  "source": "PoCD-IG.xml",
+  "source": "ImplementationGuide-PoCD.xml",
   "canonicalBase": "http://hl7.org/fhir/uv/pocd",
   "fixed-business-version": "0.2.0",
   "npm-name": "hl7.fhir.uv.pocd",
@@ -22,27 +22,43 @@
   },
   "resources": {
     "StructureDefinition/NumericDeviceMetric": {
+      "source": "StructureDefinition-NumericDeviceMetric.xml",
       "base": "StructureDefinition-NumericDeviceMetric.html"
     },
     "StructureDefinition/EnumerationDeviceMetric": {
+      "source": "StructureDefinition-EnumerationDeviceMetric.xml",
       "base": "StructureDefinition-EnumerationDeviceMetric.html"
     },
     "StructureDefinition/NumericObservation": {
+      "source": "StructureDefinition-NumericObservation.xml",
       "base": "StructureDefinition-NumericObservation.html"
     },
     "StructureDefinition/CompoundNumericObservation": {
+      "source": "StructureDefinition-CompoundNumericObservation.xml",
       "base": "StructureDefinition-CompoundNumericObservation.html"
     },
     "StructureDefinition/EnumerationObservation": {
+      "source": "StructureDefinition-EnumerationObservation.xml",
       "base": "StructureDefinition-EnumerationObservation.html"
     },
+    "CodeSystem/measurement-status": {
+      "source": "CodeSystem-measurement-status.xml",
+      "base": "CodeSystem-measurement-status.html"
+    },
+    "ValueSet/observation-interpretation": {
+      "source": "ValueSet-observation-interpretation.xml",
+      "base": "ValueSet-observation-interpretation.html"
+    },
     "ValueSet/11073MDC-object": {
+      "source": "ValueSet-11073MDC-object.xml",
       "base": "ValueSet-11073MDC-object.html"
     },
     "ValueSet/11073MDC-metric": {
+      "source": "ValueSet-11073MDC-metric.xml",
       "base": "ValueSet-11073MDC-metric.html"
     },
     "ValueSet/11073MDC-dimension": {
+      "source": "ValueSet-11073MDC-dimension.xml",
       "base": "ValueSet-11073MDC-dimension.html"
     },
     "DeviceMetric/5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b": {
