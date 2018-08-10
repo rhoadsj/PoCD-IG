@@ -15,6 +15,27 @@
   <definition>
     <resource>
       <reference>
+        <reference value="StructureDefinition/MdsDevice"/>
+      </reference>
+      <name value="MdsDevice"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/VmdDevice"/>
+      </reference>
+      <name value="VmdDevice"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ChannelDevice"/>
+      </reference>
+      <name value="ChannelDevice"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/NumericDeviceMetric"/>
       </reference>
       <name value="NumericDeviceMetric"/>
@@ -50,16 +71,16 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/measurement-status"/>
+        <reference value="StructureDefinition/device-instance"/>
       </reference>
-      <name value="MeasurementStatus"/>
+      <name value="device-instance"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/observation-interpretation"/>
+        <reference value="CodeSystem/measurement-status"/>
       </reference>
-      <name value="ObservationInterpretation"/>
+      <name value="MeasurementStatus"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -81,6 +102,13 @@
         <reference value="ValueSet/11073MDC-dimension"/>
       </reference>
       <name value="11073MDC-dimension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/observation-interpretation"/>
+      </reference>
+      <name value="ObservationInterpretation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

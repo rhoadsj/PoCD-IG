@@ -21,6 +21,18 @@
     
   },
   "resources": {
+    "StructureDefinition/MdsDevice": {
+      "source": "StructureDefinition-MdsDevice.xml",
+      "base": "StructureDefinition-MdsDevice.html"
+    },
+    "StructureDefinition/VmdDevice": {
+      "source": "StructureDefinition-VmdDevice.xml",
+      "base": "StructureDefinition-VmdDevice.html"
+    },
+    "StructureDefinition/ChannelDevice": {
+      "source": "StructureDefinition-ChannelDevice.xml",
+      "base": "StructureDefinition-ChannelDevice.html"
+    },
     "StructureDefinition/NumericDeviceMetric": {
       "source": "StructureDefinition-NumericDeviceMetric.xml",
       "base": "StructureDefinition-NumericDeviceMetric.html"
@@ -41,13 +53,13 @@
       "source": "StructureDefinition-EnumerationObservation.xml",
       "base": "StructureDefinition-EnumerationObservation.html"
     },
+    "StructureDefinition/device-instance": {
+      "source": "StructureDefinition-device-instance.xml",
+      "base": "StructureDefinition-device-instance.html"
+    },
     "CodeSystem/measurement-status": {
       "source": "CodeSystem-measurement-status.xml",
       "base": "CodeSystem-measurement-status.html"
-    },
-    "ValueSet/observation-interpretation": {
-      "source": "ValueSet-observation-interpretation.xml",
-      "base": "ValueSet-observation-interpretation.html"
     },
     "ValueSet/11073MDC-object": {
       "source": "ValueSet-11073MDC-object.xml",
@@ -60,6 +72,10 @@
     "ValueSet/11073MDC-dimension": {
       "source": "ValueSet-11073MDC-dimension.xml",
       "base": "ValueSet-11073MDC-dimension.html"
+    },
+    "ValueSet/observation-interpretation": {
+      "source": "ValueSet-observation-interpretation.xml",
+      "base": "ValueSet-observation-interpretation.html"
     },
     "DeviceMetric/5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b": {
       "source": "HeartRateNumericDeviceMetric.xml",
