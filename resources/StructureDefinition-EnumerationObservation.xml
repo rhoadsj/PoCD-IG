@@ -3,7 +3,7 @@
   <id value="EnumerationObservation"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-summary">
     <valueMarkdown value="The profile defines the following rules:&#10;
-* `Observation.code` should have a coding from the ISO/IEEE 11073 MDC Metric nomenclature.&#10;
+* `Observation.code` shall have a coding from the ISO/IEEE 11073 MDC Metric nomenclature if there is an appropriate code available.&#10;
 * `Observation.subject` shall be present and refer to a Patient resource or MDS Device resource.&#10;
 * Either `Observation.valueCodeableConcept` or `Observation.valueString` or, if there is no value, `Observation.dataAbsentReason` shall be present.&#10;
 * `Observation.device` shall be present and refer to the Enumeration DeviceMetric resource where this observation belongs to."/>

@@ -35,14 +35,15 @@ title: Terminology
               <p>The PoCD profiles define rules for terminology usage:</p>
               <ul>
                 <li>
-                  <code>Device.type</code> should have a coding from the 11073 MDC Device nomenclature. 
+                  <code>Device.type</code> shall have a coding from the 11073 MDC Device nomenclature if there is an appropriate code available. 
                   This ensures consistent coding using the ISO/IEEE 11073-10101 Nomenclature standard, which provides MDS, VMD, and Channel codes for device models according to the DIM. 
-                  As these elements are of type CodeableConcept there can be additional coding from other code systems.
+                  If there is no code available, proposed or private 11073 MDC codes or coding from an alternative code system may be used. 
+                  As this element is of type CodeableConcept there can be additional coding from other code systems.
                 </li>
-                <li>Same for the <code>DeviceMetric.type</code>, which should have a coding from the 11073 MDC Metric nomenclature.</li>
+                <li>Same for the <code>DeviceMetric.type</code>, which shall have a coding from the 11073 MDC Metric nomenclature if there is an appropriate code available.</li>
                 <li>
                   <code>DeviceMetric.unit</code> is an optional element of type CodeableConcept. 
-                  If present, it should have a coding from the 11073 MDC Units of measurement. Additional other coding is allowed as well. 
+                  If present, it shall have a coding from the 11073 MDC Units of measurement if there is an appropriate code available. Additional other coding is allowed as well. 
                   This element is the place for the 11073 MDC unit code, because the Observation resource has other constraints - see below.
                 </li>
               </ul>
