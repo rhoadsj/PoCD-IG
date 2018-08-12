@@ -2,6 +2,14 @@
 
 This implementation guide focuses on the application of FHIR to the general category of Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.).
 
+### Canonical URL
+The canonical URL of this implementation guide is http://hl7.org/fhir/uv/pocd
+
+### Continuous Integration Build
+The rendered implementation guide is available at http://build.fhir.org/ig/devices-on-fhir/PoCD-IG
+
+For the build log, see http://build.fhir.org/ig/devices-on-fhir/PoCD-IG/build.log  
+For validation output, see http://build.fhir.org/ig/devices-on-fhir/PoCD-IG/qa.html
 
 ### Local Build
 Install the FHIR IG Publisher and Jekyll as described in the [IG Publisher Documentation](http://wiki.hl7.org/index.php?title=IG_Publisher_Documentation#Installing).
