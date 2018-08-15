@@ -46,7 +46,7 @@
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/uv/pocd/StructureDefinition/MDSDevice"/>
+        <targetProfile value="http://hl7.org/fhir/uv/pocd/StructureDefinition/MdsDevice"/>
       </type>
     </element>
     <element id="Observation.value[x]">
