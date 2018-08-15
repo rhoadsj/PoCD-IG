@@ -77,6 +77,30 @@
       "source": "ValueSet-observation-interpretation.xml",
       "base": "ValueSet-observation-interpretation.html"
     },
+    "Device/5205082c-1f88-434e-9252-6c6b09c81a0d": {
+      "source": "PhysioMonitorMdsDevice.xml",
+      "base": "Device-5205082c-1f88-434e-9252-6c6b09c81a0d.html"
+    },
+    "Device/40b86960-b54f-402e-87d7-b6067313d449": {
+      "source": "ECGVmdDevice.xml",
+      "base": "Device-40b86960-b54f-402e-87d7-b6067313d449.html"
+    },
+    "Device/1afc491f-86bf-4195-b3b0-3d6f006e05c5": {
+      "source": "ECGChannelDevice.xml",
+      "base": "Device-1afc491f-86bf-4195-b3b0-3d6f006e05c5.html"
+    },
+    "Device/2cbadf16-8aaa-4188-8fa4-0875c922ebb2": {
+      "source": "HeartRateChannelDevice.xml",
+      "base": "Device-2cbadf16-8aaa-4188-8fa4-0875c922ebb2.html"
+    },
+    "Device/33d406f4-62cc-4e4c-9674-638610625d50": {
+      "source": "NBPVmdDevice.xml",
+      "base": "Device-33d406f4-62cc-4e4c-9674-638610625d50.html"
+    },
+    "Device/2b7069bf-65a4-4226-a2ba-9af47197074f": {
+      "source": "NBPChannelDevice.xml",
+      "base": "Device-2b7069bf-65a4-4226-a2ba-9af47197074f.html"
+    },
     "DeviceMetric/5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b": {
       "source": "HeartRateNumericDeviceMetric.xml",
       "base": "DeviceMetric-5b4b7dd2-d53c-4a60-9c40-457c54d7eb7b.html"

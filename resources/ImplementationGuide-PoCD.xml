@@ -7,7 +7,7 @@
   <!-- <name value="PoCDImplementationGuide"/>
   <title value="Point-of-Care Device Implementation Guide"/> -->
   <status value="draft"/>
-  <date value="2018-08-07"/>
+  <date value="2018-08-15"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="ImplementationGuide for Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.)."/>
   <packageId value="hl7.fhir.uv.pocd"/>
@@ -110,6 +110,48 @@
       </reference>
       <name value="ObservationInterpretation"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/5205082c-1f88-434e-9252-6c6b09c81a0d"/>
+      </reference> 
+      <name value="PhysioMonitorMdsDevice"/>
+      <exampleCanonical value="StructureDefinition/MdsDevice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/40b86960-b54f-402e-87d7-b6067313d449"/>
+      </reference> 
+      <name value="ECGVmdDevice"/>
+      <exampleCanonical value="StructureDefinition/VmdDevice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/1afc491f-86bf-4195-b3b0-3d6f006e05c5"/>
+      </reference> 
+      <name value="ECGChannelDevice"/>
+      <exampleCanonical value="StructureDefinition/ChannelDevice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/2cbadf16-8aaa-4188-8fa4-0875c922ebb2"/>
+      </reference> 
+      <name value="HeartRateChannelDevice"/>
+      <exampleCanonical value="StructureDefinition/ChannelDevice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/33d406f4-62cc-4e4c-9674-638610625d50"/>
+      </reference> 
+      <name value="NBPVmdDevice"/>
+      <exampleCanonical value="StructureDefinition/VmdDevice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Device/2b7069bf-65a4-4226-a2ba-9af47197074f"/>
+      </reference> 
+      <name value="NBPChannelDevice"/>
+      <exampleCanonical value="StructureDefinition/ChannelDevice"/>
     </resource>
     <resource>
       <reference>
