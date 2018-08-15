@@ -13,7 +13,7 @@
   <name value="ChannelDevice"/>
   <title value="Channel Device Profile"/>
   <status value="draft"/>
-  <date value="2018-08-10"/>
+  <date value="2018-08-15"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="StructureDefinition for Device resources that represent Channels, which are used for grouping metrics together."/>
   <fhirVersion value="3.4.0"/>
@@ -48,6 +48,7 @@
     </element>
     <element id="Device.type">
       <path value="Device.type"/>
+      <min value="1"/>
       <binding>
         <strength value="extensible"/>
         <valueSet value="http://hl7.org/fhir/uv/pocd/ValueSet/11073MDC-object"/>
