@@ -70,6 +70,7 @@
     </element>
     <element id="Observation.value[x]:valueQuantity">
       <path value="Observation.valueQuantity"/>
+      <sliceName value="valueQuantity"/>
       <type>
         <code value="Quantity"/>
       </type>
@@ -84,6 +85,7 @@
     </element>
     <element id="Observation.value[x]:valueRatio">
       <path value="Observation.valueRatio"/>
+      <sliceName value="valueRatio"/>
       <type>
         <code value="Ratio"/>
       </type>
