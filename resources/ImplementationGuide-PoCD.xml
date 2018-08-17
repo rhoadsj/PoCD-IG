@@ -3,11 +3,10 @@
   <id value="PoCD"/>
   <url value="http://hl7.org/fhir/uv/pocd/ImplementationGuide/PoCD"/>
   <version value="0.2.0"/>
-  <name value="Point-of-Care Device Implementation Guide"/>
-  <!-- <name value="PoCDImplementationGuide"/>
-  <title value="Point-of-Care Device Implementation Guide"/> -->
+  <name value="PoCDImplementationGuide"/>
+  <title value="Point-of-Care Device Implementation Guide"/>
   <status value="draft"/>
-  <date value="2018-08-15"/>
+  <date value="2018-08-17"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="ImplementationGuide for Point-of-Care Devices (PoCD), such as those typically found in a hospital care setting (e.g., physiological monitors, infusion pumps, ventilators, pulse-oximeters, etc.)."/>
   <packageId value="hl7.fhir.uv.pocd"/>
