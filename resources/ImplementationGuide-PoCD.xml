@@ -3,7 +3,8 @@
   <id value="PoCD"/>
   <url value="http://hl7.org/fhir/uv/pocd/ImplementationGuide/PoCD"/>
   <version value="0.2.0"/>
-  <name value="PoCDImplementationGuide"/>
+  <!-- <name value="PoCDImplementationGuide"/> -->
+  <name value="Point-of-Care Device Implementation Guide"/>
   <title value="Point-of-Care Device Implementation Guide"/>
   <status value="draft"/>
   <date value="2018-08-17"/>
