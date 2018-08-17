@@ -10,12 +10,12 @@
   <title value="Observation interpretation codes"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2018-08-07"/>
+  <date value="2018-08-17"/>
   <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
   <description value="Observation interpretation codes including measurement status."/>
   <compose>
     <include>
-      <system value="http://terminology.hl7.org/CodeSystem/v2-0078"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
     </include>
     <include>
       <system value="http://hl7.org/fhir/uv/pocd/CodeSystem/measurement-status"/>
