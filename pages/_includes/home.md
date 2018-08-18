@@ -7,9 +7,10 @@ Other related implementation guides focus on home-based personal health devices,
 This Implementation Guide is intended for device system developers, system integrators, FHIR architects, and clinical users of point-of-care device information.
 
 ### Scope and Boundaries
-**Editor**:  Include scope to PoCD and general.  
 
-**_Question_**:  Include reference to what of the 11073-10201 model is out-of-bounds for this IG?
+This Implementation Guide presents data structures and descriptions for the process of mapping point-of-care device logical structure so as to support reporting of observations from such devices and also aspects of dynamic device state and aspects of the provenance of such observations using the conceptual framework and Domain Information Model (IEEE Standard 11073-10201 Medical Device Communications - Domain Information Model.)
+
+Parts of the Domain Information Model that are potential parts of successor Implementation Guides but out of scope for this one include alert (physiological and technical alarms and advisories), and Supervisory Control.
 
 ### Relationship to Other Projects & Guides
 This Implementation Guide covers material related to work in other projects and guides including the Personal Health Device Implementation Guide, and IHE Patient Care Device (PCD) profiles.
@@ -18,7 +19,7 @@ This Implementation Guide covers material related to work in other projects and 
 The [Personal Health Device Implementation guide](http://hl7.org/fhir/uv/phd/) treats wellness and chronic disease management devices used mainly by nonprofessionals in home and exercise settings. This Guide is focused on acute-care devices for professional use mainly in healthcare delivery facilities. The Personal Health Device and Point-of-Care Device guides both use information models and nomenclature from the IEEE 11073 Medical Device Communications series of standards and the guides for these two kinds of devices are being developed cooperatively in the Devices On FHIR project with a goal of consistency and ease of use by use by receiving systems.
 
 #### Unique Device Identifier (UDI) IG(s)
-**Editor**:  UDI Pattern IG and any other IGs.
+This Implementation Guide makes use of Unique Device Identification as defined by the US FDA. Refer to HL7 Cross Paradigm Implementation Guide: UDI Pattern
 
 #### IHE Patient Care Device (PCD) Profiles
 The IHE PCD domain has developed profiles for conveying acute care device data with context using HL7 V2. The base information system and nomenclature are based on the IEEE 11073 Medical Device Communications standards, also used in this FHIR Implementation Guide. 
@@ -37,18 +38,23 @@ This requirement is a challenge, though, for devices that only communicate ISO/I
 This is an area of coordination between this IG and the Vital Signs Profile.
 
 ### Structure of this Guide
-**Editor**:  Provide short synopsis of the IG.
+
+This guide is organized into presentations of an overview of the work, explanations of its use, specializations, and extensions of FHIR resources to meet its design goals.
 
 ### Abbreviations & Conventions
-**Editor:**  Add the top abbreviations or definitions here w/ links to more information (internal to the IG or external)
 
-Add ...
-* "MDC"
-* "PoCD"
-* "PHD"
-* "X73"
-* "11073" 
-* "healthcare devices vs. medical devices"
+* MDC
+** Medical Device Communications, the general name for standards in the IEEE 11073 series
+* PoCD
+** Point-of-Care Device, the category of communications-capable acute-care medical devices, generally intended for use by qualified healthcare professionals and subject to regulatory review
+* PHD
+** Personal Health Device, the category of communications-capable personal health and wellness devices designed to be used by persons without professional training and not always subject to regulatory review
+* X73
+** Informal short form often used to refer to the IEEE 11073 suite of standards
+* 11073 
+** IEEE 11073 Medical Device Communications standards serices
+* healthcare devices vs. medical devices
+** healthcare devices refers to the broad category of devices used in some way in healthcare. Medical device is defined in regulations and implies use in determining treatment of patients
 
 ### Future Guide Revisions
 Future capabilities are planned for this General PoCD IG including:
@@ -56,7 +62,7 @@ Future capabilities are planned for this General PoCD IG including:
 2. Device Events & Alerts including:
   * Basic PCD ACM / 60601-1-8 reporting
   * Status notifications back to the source Device
-3. Query for "fresh" data:
+3. Query for fresh data:
   * Indirect via a FHIR gateway where a request is made to the device using Protocol (X)
-  * Direct to the device where it has a minimized "server" capability
+  * Direct to the device where it has a minimized server capability
          
